@@ -7,7 +7,7 @@ function Header() {
 				<figure className="container-link">
 					<img id="link-1" src="images/profile.png" alt="" />
 
-					<img id="link-2" src="images/resume.png" alt="" />
+					<img id="link-2" src="images/cv.png" alt="" />
 
 					<img id="link-3" src="images/github.png" alt="" />
 				</figure>
