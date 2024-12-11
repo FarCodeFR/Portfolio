@@ -1,10 +1,14 @@
 import { StrictMode } from "react";
+import { RouterProvider } from "react-router-dom";
 import { createRoot } from "react-dom/client";
-import App from "./App.tsx";
+import { router } from "./routes/router";
 
-// biome-ignore lint/style/noNonNullAssertion: <explanation>
-createRoot(document.getElementById("root")!).render(
-	<StrictMode>
-		<App />
-	</StrictMode>,
-);
+const root = document.getElementById("root");
+
+if (root) {
+	createRoot(root).render(
+		<StrictMode>
+			<RouterProvider router={router} />
+		</StrictMode>,
+	);
+}

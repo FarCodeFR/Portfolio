@@ -1,5 +1,5 @@
 function Profil() {
-	return <h1>Bonjour</h1>;
+	return <></>;
 }
 
 export default Profil;
